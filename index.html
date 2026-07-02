@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">Nova Studio</div>
+    <a href="#contact">Contact</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>We build modern websites for brands and products.</h1>
+      <p>Fast, responsive, and client-ready portfolio website for presentation.</p>
+      <a class="btn" href="#contact">Get Started</a>
+    </section>
+
+    <section class="grid">
+      <div class="card"><h3>Frontend</h3><p>Responsive UI with clean design.</p></div>
+      <div class="card"><h3>Backend</h3><p>FastAPI form handling and API response.</p></div>
+      <div class="card"><h3>Deployment</h3><p>GitHub Pages + Render live demo.</p></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input name="name" placeholder="Your name" required />
+        <input name="email" type="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+      <p id="status"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
